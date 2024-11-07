@@ -8,7 +8,8 @@ import { SharedModule } from 'src/app/shared/shared.module';
   imports : [SharedModule],
   selector: 'app-detail',
   templateUrl: './detail.component.html',
-  styleUrls: ['./detail.component.css']
+  styleUrls: ['./detail.component.css'],
+  //providers : [ActionService] //providing service in component level
 })
 export class DetailComponent {
 
